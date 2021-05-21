@@ -1,6 +1,6 @@
 <html>
 <body>
-<?php
+<? php
 
 $name = $_post['name'];
 $email = $_post['email'];
