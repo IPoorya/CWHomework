@@ -1,6 +1,6 @@
 <html>
 <body>
-<? php
+<?php
 
 $name = $_post['name'];
 $email = $_post['email'];
@@ -12,10 +12,9 @@ echo fwrite($file, "$email");
 echo fwrite($file, "$comment");
 fclose($file);
 
+echo "hi! This is a test from 'test' branch";
+
 ?>
 
 </body>
 </html> 
-
-
-hi
