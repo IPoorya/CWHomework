@@ -18,4 +18,3 @@ fclose($file);
 </html> 
 
 
-hi
